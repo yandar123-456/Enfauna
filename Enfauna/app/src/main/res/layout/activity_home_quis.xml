@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="3"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hewan apakah ini ?"
+                        android:textSize="22sp"
+                        android:layout_marginTop="20dp"/>
+
+
+                    <ImageView
+                        android:id="@+id/questionImage"
+                        android:layout_width="210dp"
+                        android:layout_height="138dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/countLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Soal 1"
+                        android:textSize="22sp"
+                        android:layout_marginTop="20dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginTop="10dp"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <Button
+                        android:textColor="#EFEDF4"
+                        android:background="#3F51B5"
+                        android:id="@+id/answerBtn1"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:text="answer1"
+                        android:onClick="checkAnswer"/>
+
+                    <Button
+                        android:textColor="#EFEDF4"
+                        android:background="#3F51B5"
+                        android:id="@+id/answerBtn2"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:text="answer2"
+                        android:layout_marginTop="6dp"
+                        android:onClick="checkAnswer"/>
+
+                    <Button
+                        android:textColor="#EFEDF4"
+                        android:background="#3F51B5"
+                        android:id="@+id/answerBtn3"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:text="answer3"
+                        android:layout_marginTop="6dp"
+                        android:onClick="checkAnswer"/>
+
+                    <Button
+                        android:textColor="#EFEDF4"
+                        android:background="#3F51B5"
+                        android:id="@+id/answerBtn4"
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:text="answer4"
+                        android:layout_marginTop="6dp"
+                        android:onClick="checkAnswer"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

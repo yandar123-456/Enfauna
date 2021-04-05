@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "501184056663",
+    "firebase_url": "https://tesimg-98dc2.firebaseio.com",
+    "project_id": "tesimg-98dc2",
+    "storage_bucket": "tesimg-98dc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501184056663:android:c3823e2924c8beef97c212",
+        "android_client_info": {
+          "package_name": "com.example.content"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501184056663-k59bsn8qgr0j19s0bb46khffqr5u0eva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT6FztA8r2Mr2DjchPuoDCXfcjn6xIm7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501184056663-k59bsn8qgr0j19s0bb46khffqr5u0eva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501184056663:android:da52334bcc63f15097c212",
+        "android_client_info": {
+          "package_name": "com.example.enfauna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501184056663-k59bsn8qgr0j19s0bb46khffqr5u0eva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT6FztA8r2Mr2DjchPuoDCXfcjn6xIm7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501184056663-k59bsn8qgr0j19s0bb46khffqr5u0eva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501184056663:android:cf92096dfb43759297c212",
+        "android_client_info": {
+          "package_name": "com.example.tesimg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501184056663-k59bsn8qgr0j19s0bb46khffqr5u0eva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT6FztA8r2Mr2DjchPuoDCXfcjn6xIm7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501184056663-k59bsn8qgr0j19s0bb46khffqr5u0eva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

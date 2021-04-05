@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enfauna">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hewan"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/hewan"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminTambahFakta"></activity>
+        <activity android:name=".AdminEditFakta" />
+        <activity android:name=".AdminDataFakta" />
+        <activity android:name=".AdminTambahHewan" />
+        <activity android:name=".AdminEditHewan" />
+        <activity android:name=".AdminDataHewan" />
+        <activity android:name=".PilihanMasuk" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeInfo" />
+        <activity android:name=".HomeQuis" />
+        <activity android:name=".HomeDetailFakta" />
+        <activity android:name=".HomeDataFakta" />
+        <activity android:name=".HomeDetailHewan" />
+        <activity android:name=".HomeDataHewan" />
+        <activity android:name=".HomePilihanAdmin" />
+        <activity android:name=".HomeAdmin" />
+        <activity android:name=".HomeActivity" />
+    </application>
+
+</manifest>
